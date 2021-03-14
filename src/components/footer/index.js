@@ -11,11 +11,7 @@ import {
 } from "./styles/footer";
 
 export default function Footer({ children, ...restProps }) {
-  return (
-    <Container {...restProps} r>
-      {children}
-    </Container>
-  );
+  return <Container {...restProps}>{children}</Container>;
 }
 
 Footer.Row = function FooterRow({ children, ...restProps }) {
