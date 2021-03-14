@@ -10,6 +10,7 @@ import * as ROUTES from "../constants/routes";
 export default function SignIn() {
   const history = useHistory();
   const { firebase } = React.useContext(FirebaseContext);
+
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
   const [error, setError] = React.useState("");
