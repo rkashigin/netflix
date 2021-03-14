@@ -1,7 +1,12 @@
 import React from "react";
 
-import { JumbotronContainer } from "./containers/jumbotron";
+import { JumbotronContainer, FooterContainer } from "./containers";
 
 export default function App() {
-  return <JumbotronContainer />;
+  return (
+    <>
+      <JumbotronContainer />
+      <FooterContainer />
+    </>
+  );
 }
