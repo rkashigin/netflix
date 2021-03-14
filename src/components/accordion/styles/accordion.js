@@ -28,7 +28,7 @@ export const Title = styled.h1`
 
 export const Item = styled.div`
   color: white;
-  max-width: 670px;
+  max-width: 700px;
   margin: auto auto 10px;
   width: 100%;
 
