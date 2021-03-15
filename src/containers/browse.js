@@ -10,6 +10,7 @@ import logo from "../logo.svg";
 export default function BrowseContainer({ slides }) {
   const [profile, setProfile] = React.useState({});
   const [loading, setLoading] = React.useState(true);
+  const [searchTerm, setSearchTerm] = React.useState("");
   const { firebase } = React.useContext(FirebaseContext);
   const user = firebase.auth().currentUser || {};
 
@@ -34,6 +35,10 @@ export default function BrowseContainer({ slides }) {
             <Header.TextLink>Films</Header.TextLink>
           </Header.Group>
           <Header.Group>
+            <Header.Search
+              searchTerm={searchTerm}
+              setSearchTerm={setSearchTerm}
+            />
             <Header.Profile>
               <Header.Picture src={user.photoURL} />
               <Header.Dropdown src={user.photoURL}>
@@ -59,6 +64,7 @@ export default function BrowseContainer({ slides }) {
             he projects in a futile attempt to feel like he's part of the world
             around him.
           </Header.Text>
+          <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>
       </Header>
     </>
