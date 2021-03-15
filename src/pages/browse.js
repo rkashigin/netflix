@@ -1,5 +1,15 @@
 import React from "react";
 
+import { BrowserContainer } from "../containers";
+
+import { useContent } from "../hooks";
+import selectionFilter from "../utils/selection-filter";
+
 export default function Browse() {
-  return <p> Hello from the browse</p>;
+  const { series } = useContent("series");
+  const { films } = useContent("films");
+
+  const slides = selectionFilter({ series, films });
+
+  return <BrowserContainer slides={slides} />;
 }
