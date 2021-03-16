@@ -1,4 +1,4 @@
-# Netflix clone with basic functionality (Demo: [Netflix Clone](http://my-netflixclone.herokuapp.com))
+# Netflix clone with basic functionality ([Demo](http://my-netflixclone.herokuapp.com))
 _Project purpose: learn how to use Styled Components and how to do Registration/Authorization via Firebase_
 
 ## Functionality
