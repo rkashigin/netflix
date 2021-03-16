@@ -41,8 +41,8 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
     class="jumbotron__Item-es77m8-0 fuWhyt"
   >
     <div
-      class="jumbotron__Inner-es77m8-1 dUiyuh"
-      direction="row-reverse"
+      class="jumbotron__Inner-es77m8-1 djuVHw"
+      direction="row"
     >
       <div
         class="jumbotron__Pane-es77m8-2 kXMxaf"

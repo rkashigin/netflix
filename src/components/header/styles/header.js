@@ -89,7 +89,7 @@ export const FeatureCallOut = styled.h2`
   margin: 0 0 20px;
 `;
 
-export const Link = styled.p`
+export const TextLink = styled.p`
   color: white;
   text-decoration: none;
   margin-right: 30px;
@@ -128,7 +128,7 @@ export const Dropdown = styled.div`
   top: 32px;
   right: 10px;
 
-  ${Group}:last-of-type ${Link} {
+  ${Group}:last-of-type ${TextLink} {
     cursor: pointer;
   }
 
@@ -139,7 +139,7 @@ export const Dropdown = styled.div`
       margin-bottom: 0;
     }
 
-    ${Link}, ${Picture} {
+    ${TextLink}, ${Picture} {
       cursor: default;
     }
   }

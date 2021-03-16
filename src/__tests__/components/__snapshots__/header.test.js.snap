@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders the basic <Header /> with a background 1`] = `
+<div
+  class="header__Background-djltcn-0 bfhYXS"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-djltcn-1 kWSTgG"
+  >
+    <link>
+      <img
+        alt="Netflix"
+        class="header__Logo-djltcn-2 kItXfD"
+        src="/logo.svg"
+      />
+    </link>
+    <p
+      class="header__TextLink-djltcn-7 gbykPu"
+    >
+      Hello I am a link!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders the basic <Header /> with a background 2`] = `
+<div
+  class="header__Background-djltcn-0 kVsKcI"
+  data-testid="header-bg"
+  src="joker1"
+>
+  <div
+    class="header__Container-djltcn-1 kWSTgG"
+  >
+    <div
+      class="header__Group-djltcn-8 dOoNMy"
+    >
+      <link>
+        <img
+          alt="Netflix"
+          class="header__Logo-djltcn-2 kItXfD"
+          src="/images/logo.svg"
+        />
+      </link>
+      <p
+        class="header__TextLink-djltcn-7 eoGmry"
+      >
+        Series
+      </p>
+      <p
+        class="header__TextLink-djltcn-7 gbykPu"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="header__Group-djltcn-8 dOoNMy"
+    >
+      <div
+        class="header__Search-djltcn-12 lgpHIv"
+      >
+        <button
+          class="header__SearchIcon-djltcn-13 kzOlCj"
+          data-testid="search-click"
+        >
+          <img
+            alt="Search"
+            src="/images/icons/search.png"
+          />
+        </button>
+        <input
+          class="header__SearchInput-djltcn-14 cFWPka"
+          data-testid="search-input"
+          placeholder="Search films and series"
+          value="Joker"
+        />
+      </div>
+      <div
+        class="header__Profile-djltcn-11 iayyFk"
+      >
+        <button
+          class="header__Picture-djltcn-9 kRiWrr"
+          src="/images/users//images/roman.png.png"
+        />
+        <div
+          class="header__Dropdown-djltcn-10 cOomTp"
+        >
+          <div
+            class="header__Group-djltcn-8 dOoNMy"
+          >
+            <button
+              class="header__Picture-djltcn-9 kRiWrr"
+              src="/images/users//images/roman.png.png"
+            />
+            <p
+              class="header__TextLink-djltcn-7 eoGmry"
+            >
+              Roman Kashigin
+            </p>
+          </div>
+          <div
+            class="header__Group-djltcn-8 dOoNMy"
+          >
+            <p
+              class="header__TextLink-djltcn-7 eoGmry"
+            >
+              Sign Out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-djltcn-1 header__Feature-djltcn-4 kWSTgG bGuQsQ"
+  >
+    <h2
+      class="header__FeatureCallOut-djltcn-6 bJnlHx"
+    >
+      Watch Joker Now
+    </h2>
+    <p
+      class="header__Text-djltcn-5 wZQbe"
+    >
+      Forever alone in a crowd...
+    </p>
+    <button
+      class="header__PlayButton-djltcn-15 eTSiQi"
+    >
+      Play
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders the basic <Header /> without a background 1`] = `
+<div
+  class="header__Container-djltcn-1 kWSTgG"
+>
+  <link>
+    <img
+      alt="Netflix"
+      class="header__Logo-djltcn-2 kItXfD"
+      src="/logo.svg"
+    />
+  </link>
+  <link
+    class="header__ButtonLink-djltcn-3 iXKjou"
+  >
+    Sign In
+  </link>
+  <p
+    class="header__TextLink-djltcn-7 eoGmry"
+  >
+    Hello I am a link!
+  </p>
+</div>
+`;

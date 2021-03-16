@@ -2,6 +2,10 @@ import React from "react";
 import { render } from "@testing-library/react";
 import { Form } from "../../components";
 
+jest.mock("react-router-dom", () => ({
+  Link: "Link",
+}));
+
 describe("<Form />", () => {
   it("renders the <Form /> with populated data", () => {
     const { container, getByText, getByPlaceholderText } = render(
@@ -20,7 +24,9 @@ describe("<Form />", () => {
           </Form.Submit>
         </Form.Base>
 
-        <Form.Text>New to Netflix?</Form.Text>
+        <Form.Text>
+          New to Netflix? <Form.Link to="/signup">Sign up now.</Form.Link>
+        </Form.Text>
         <Form.TextSmall>
           This page is protected by Google reCAPTCHA to ensure you're not a bot.
           Learn more.
