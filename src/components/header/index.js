@@ -78,11 +78,7 @@ Header.Logo = function HeaderLogo({ to, ...restProps }) {
 };
 
 Header.ButtonLink = function HeaderButtonLink({ children, ...restProps }) {
-  return (
-    <ReactRouterLink to={to}>
-      <ButtonLink {...restProps}>{children}</ButtonLink>;
-    </ReactRouterLink>
-  );
+  return <ButtonLink {...restProps}>{children}</ButtonLink>;
 };
 
 Header.Search = function HeaderSearch({
