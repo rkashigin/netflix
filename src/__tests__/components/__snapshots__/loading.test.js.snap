@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Feature /> renders the <Feature /> with a subtitle 1`] = `
+<div
+  class="feature__Container-sc-6swrp6-0 gefPRS"
+>
+  <h2
+    class="feature__SubTitle-sc-6swrp6-2 dQnJQV"
+  >
+    Watch anywhere. Cancel at any time.
+  </h2>
+</div>
+`;
+
+exports[`<Feature /> renders the <Feature /> with a title 1`] = `
+<div
+  class="feature__Container-sc-6swrp6-0 gefPRS"
+>
+  <h1
+    class="feature__Title-sc-6swrp6-1 jiOEhx"
+  >
+    Unlimited films, TV programmes and more.
+  </h1>
+</div>
+`;
+
+exports[`<Feature /> renders the <Feature /> with populated data 1`] = `
+<div
+  class="feature__Container-sc-6swrp6-0 gefPRS"
+>
+  <h1
+    class="feature__Title-sc-6swrp6-1 jiOEhx"
+  >
+    Unlimited films, TV programmes and more.
+  </h1>
+  <h2
+    class="feature__SubTitle-sc-6swrp6-2 dQnJQV"
+  >
+    Watch anywhere. Cancel at any time.
+  </h2>
+</div>
+`;
+
+exports[`<Loading /> renders the <Loading /> component 1`] = `
+<div
+  class="loading__Spinner-sc-11yhc25-0 QWzsy"
+  data-testid="loading"
+>
+  <img
+    class="loading__Picture-sc-11yhc25-1 hQCddl"
+    data-testid="loading-picture"
+    src="/images/users//images/users/2.png.png"
+  />
+</div>
+`;
+
+exports[`<Loading /> renders the <Loading.ReleaseBody /> 1`] = `null`;
