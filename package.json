@@ -46,7 +46,7 @@
     "collectCoverageFrom": [
       "<rootDir>/src/**/*.js",
       "!<rootDir>/src/index.js",
-      "!<rootDir>/src/app.js",
+      "!<rootDir>/src/App.js",
       "!<rootDir>/src/seed.js",
       "!<rootDir>/src/global-styles.js",
       "!<rootDir>/src/components/index.js",
