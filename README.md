@@ -1,6 +1,4 @@
-# DEMO: [Netflix Clone](http://my-netflixclone.herokuapp.com)
-
-# Netflix clone with basic functionality
+# Netflix clone with basic functionality (Demo: [Netflix Clone](http://my-netflixclone.herokuapp.com))
 _Project purpose: learn how to use Styled Components and how to do Registration/Authorization via Firebase_
 
 ## Functionality
@@ -31,28 +29,28 @@ _Project purpose: learn how to use Styled Components and how to do Registration/
 
 ### Home page
 
-![alt text]("screenshots/Home page.png" "Home page screenshot")​
+![Home page preview](screenshots/home-page.png)
 
 ### Sign in page
 
-![alt text]("screenshots/SignIn page.png" "Sign in page screenshot")​
+![Sign in page preview](screenshots/signin-page.png)
 
 ### Sign up page
 
-![alt text]("screenshots/SignUp page.png" "Sign up screenshot")​
+![Sign up page preview](screenshots/signup-page.png)
 
 ### Profile choosing
 
-![alt text]("screenshots/Profile choosing.png" "Profile choosing screenshot")​
+![Profile choosing preview](screenshots/profile-choosing.png)
 
 ### Browse page
 
-![alt text]("screenshots/Browse page.png" "Browse page screenshot")​
+![Browse page preview](screenshots/browse-page.png)
 
 ### Selected film
 
-![alt text]("screenshots/Selected film.png" "Selected film screenshot")​
+![Selected film preview](screenshots/selected-film.png)
 
 ### Player
 
-![alt text]("screenshots/Player.png" "Player screenshot")​
+![Player preview](screenshots/player.png)
