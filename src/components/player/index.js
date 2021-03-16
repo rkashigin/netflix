@@ -27,6 +27,7 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
               setShowPlayer(false);
             }
           }}
+          data-testid="player"
         >
           <Inner>
             <video id="netflix-player" controls>
